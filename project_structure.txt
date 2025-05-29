@@ -1,0 +1,9 @@
+/agents/                # All agent microservices (API, Scraper, Retriever, Analysis, Language, Voice)
+/data_ingestion/        # Data loaders, API wrappers, scrapers
+/orchestrator/          # FastAPI orchestrator for routing and agent coordination
+/streamlit_app/         # Streamlit UI for user interaction
+/docs/                  # Documentation, AI tool usage logs, architecture diagrams
+/tests/                 # Unit and integration tests
+requirements.txt        # Python dependencies
+Dockerfile              # For containerization
+README.md               # Setup, architecture, benchmarks, etc.
