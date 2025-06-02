@@ -3,11 +3,9 @@
 ## Overview
 A modular, multi-source, multi-agent finance assistant that delivers spoken market briefs via a Streamlit app. The system leverages advanced data-ingestion pipelines, vector store indexing for Retrieval-Augmented Generation (RAG), and orchestrates specialized agents (API, scraping, retrieval, analytics, LLM, voice) via FastAPI microservices. Voice I/O is powered by open-source toolkits, and text agents are built with LangGraph and CrewAI. All code is open-source, documented with AI-tool usage logs, and deployed on Streamlit.
 
----
+-
 
-## Architecture
 
-![Architecture Diagram](docs/architecture.png)
 
 ### Agent Roles
 - **API Agent:** Polls real-time & historical market data via AlphaVantage or Yahoo Finance
