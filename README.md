@@ -58,10 +58,12 @@ README.md               # Setup, architecture, benchmarks, etc.
    ```bash
    pip install -r requirements.txt
    ```
-3. Run agents 
+3. Run agents
+   ```bash
    start.bat
-
-   for stop run
+ ```
+4. for stop runing
+```bash
    stop.bat
    
    ```
