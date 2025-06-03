@@ -41,6 +41,8 @@ The system responds verbally:
 /tests/                 # Unit and integration tests
 requirements.txt        # Python dependencies
 Dockerfile              # For containerization
+start.bat               # to run all files
+stop.bat                # stop all files which are runing
 README.md               # Setup, architecture, benchmarks, etc.
 ```
 
@@ -49,38 +51,22 @@ README.md               # Setup, architecture, benchmarks, etc.
 ## Setup & Deployment
 1. **Clone the repository:**
    ```bash
-   git clone <repo-url>
+   git clone https://github.com/rahulsm067/Multi-Agent-AI-Operated-Finance-Assistant.git
    cd Multi-Agent-Finance-Assistant
    ```
 2. **Install dependencies:**
    ```bash
    pip install -r requirements.txt
    ```
-3. **Run agents and orchestrator:**
-   ```bash
-   # Example (update as needed)
-   python agents/api_agent.py
-   python agents/scraping_agent.py
-   python orchestrator/coordinator.py
-   # ...
-   ```
-4. **Start Streamlit app:**
-   ```bash
-   streamlit run streamlit_app/app.py
-   ```
-5. **(Optional) Docker deployment:**
-   ```bash
-   docker build -t finance-assistant .
-   docker run -p 8501:8501 finance-assistant
+3. Run agents 
+   start.bat
+
+   for stop run
+   stop.bat
+   
    ```
 
----
 
-## AI Tool Usage & Benchmarks
-- See `docs/ai_tool_usage.md` for detailed logs of AI tool prompts, code generation steps, and model parameters.
-- Performance benchmarks and framework/toolkit comparisons are also documented in the `docs/` folder.
-
----
 
 ## License
 Open-source, MIT License.
